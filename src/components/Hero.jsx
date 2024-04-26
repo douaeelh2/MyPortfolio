@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
             <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6">
-                <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] behind"/>
+                <div className="absolute w-[40%] h-[40%] left-[70%] rounded-full blue__gradient bottom-[100px] behind"/>
 
                 {/* intro section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-7">
