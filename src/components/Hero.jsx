@@ -1,5 +1,4 @@
 import { TypeAnimation } from "react-type-animation";
-import Button from "../widgets/Button";
 import styles from "../style";
 import React from "react";
 
@@ -7,7 +6,7 @@ const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
             <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6">
-                <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[20%] rounded-full blue__gradient bottom-30" />
+                <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[50%] rounded-full blue__gradient bottom-30" />
 
                 {/* intro section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-7">
