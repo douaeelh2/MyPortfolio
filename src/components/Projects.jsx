@@ -4,7 +4,7 @@ import React from "react";
 import {projects} from "../constants";
 const Projects = () => (
     <section id="projects" className={`flex-col gap-10 ${styles.paddingY} relative font-poppins`}>
-        <div className="absolute z-[0] w-[30%] h-[30%] -right-[40%] rounded-full blue__gradient bottom-40"/>
+        <div className="absolute z-[-1] w-[35%] h-[35%] md:w-[40%]  -right-[50%] rounded-full blue__gradient bottom-40"/>
 
         <div className="mx-auto max-w-screen-sm px-4">
             <h2 className={`${styles.heading2Center}`}>Wondering About My Recent Projects ?</h2>
