@@ -4,7 +4,7 @@ import DocCard from "../widgets/DocCard.jsx";
 import {documents} from "../constants/index.js";
 const Docs = () => (
     <section id="projects" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
-        <div className="absolute z-[0] w-[40%] h-[40%] -right-[50%] rounded-full blue__gradient bottom-40"/>
+        <div className="absolute z-[0] w-[50%] h-[50%] -right-[50%] rounded-full blue__gradient bottom-40"/>
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24 ">
             <div className="max-w-2xl mx-auto text-center ">
                 <h2 className={`${styles.heading2Center}`}>Interested in My Tech Guides ?</h2>

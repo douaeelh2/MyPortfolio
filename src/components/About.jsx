@@ -3,8 +3,6 @@ import AboutCard from "../widgets/AboutCard";
 import {aboutData} from "../constants";
 const About = () => (
     <section id="about" className={`flex-col gap-10 ${styles.paddingY} relative font-poppins`}>
-        <div className="absolute z-[0] w-[50%] h-[50%] -right-[50%] rounded-full blue__gradient bottom-90"/>
-        <div className="absolute z-[0] w-[30%] h-[30%] -left-[30%] rounded-full blue__gradient bottom-[100px]"/>
 
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm">
             <h2 className={`${styles.heading2Center}`}>About me ? Let Me Introduce Myself</h2>
