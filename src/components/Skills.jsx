@@ -26,7 +26,7 @@ const Skills = () => {
 
   return (
       <section id="skills" className={`${layout.section} sm:px-0 px-5`}>
-          <div className="absolute z-[0] w-[50%] h-[50%] -right-[50%] rounded-full blue__gradient bottom-30"/>
+          <div className="absolute z-[0] w-[30%] h-[30%] -right-[40%] rounded-full blue__gradient bottom-30"/>
           <div className={`${layout.sectionInfo} py-10 md:mb-0`}>
               <h2 className={styles.heading2}>
                   What My Programming Skills Included ?
