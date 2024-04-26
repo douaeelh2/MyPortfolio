@@ -1,13 +1,13 @@
 import { TypeAnimation } from "react-type-animation";
+import Button from "../widgets/Button";
 import styles from "../style";
 import React from "react";
 
 const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
-            <div
-                className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[50%] rounded-full blue__gradient bottom-30"/>
             <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6">
+                <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[50%] rounded-full blue__gradient bottom-30" />
 
                 {/* intro section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-7">
@@ -36,7 +36,8 @@ const Hero = () => {
                     <div className="flex items-center flex-col sm:flex-row mt-8">
                         <button type="button"
                                 className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}>
-                            <a href="https://drive.google.com/file/d/1C9pqbcA2Q5qjNDyxX3Agq5tiU6EjTzRG/view?usp=sharing">Download CV</a>
+                            <a href="https://drive.google.com/file/d/1C9pqbcA2Q5qjNDyxX3Agq5tiU6EjTzRG/view?usp=sharing">Download
+                                CV</a>
                         </button>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ const Hero = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-5 md:w-[70%] lg:w-[75%] h-[100%] hidden md:block">
                     <div
                         className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform rotate-3 feature-img`}>
-                        <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] "/>
+                        <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] " />
                     </div>
                 </div>
             </div>
