@@ -4,7 +4,7 @@ import {experiences} from "../constants";
 import React from "react";
 const Experiences = () => (
   <section id = "experiences" className={`flex-col gap-10 ${styles.paddingY} relative font-poppins`}>
-      <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] behind"/>
+      <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] z-50"/>
 
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm">
           <h2 className={`${styles.heading2Center}`}>What Have I Learned From My Experiences ?</h2>
