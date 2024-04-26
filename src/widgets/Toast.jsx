@@ -5,7 +5,7 @@ const Toast = () => (
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -100 }}
-        className="max-w-xs feature-card border border-gray-700 rounded-xl shadow-lg toast-right"
+        className="max-w-xs feature-card border border-gray-700 rounded-xl shadow-lg toast-right z-50"
         role="alert">
         <div className="flex p-4">
             <div className="flex-shrink-0">
