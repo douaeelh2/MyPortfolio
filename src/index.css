@@ -170,7 +170,7 @@
 
 
 .gradient-shadow {
-  box-shadow: 0 0.5px 0.5px 0.5px  #19626d !important;
+  box-shadow: 0 0.5px 0.5px 0.5px #5ce1e6 !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
