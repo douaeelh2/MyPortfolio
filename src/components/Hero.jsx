@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
-import Button from "../widgets/Button";
 import styles from "../style";
+import React from "react";
 
 const Hero = () => {
     return (
@@ -34,7 +34,10 @@ const Hero = () => {
                     </p>
 
                     <div className="flex items-center flex-col sm:flex-row mt-8">
-                        <Button styles={`hover:scale-[0.99]`} text={`Download CV`}/>
+                        <button type="button"
+                                className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}>
+                            <a href="https://drive.google.com/file/d/1C9pqbcA2Q5qjNDyxX3Agq5tiU6EjTzRG/view?usp=sharing">Download CV</a>
+                        </button>
                     </div>
                 </div>
 
