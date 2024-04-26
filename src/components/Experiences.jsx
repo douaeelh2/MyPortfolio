@@ -1,4 +1,4 @@
-import styles, { layout } from "../style";
+import styles from "../style";
 import ExperienceCard from "../widgets/ExperienceCard.jsx";
 import {experiences} from "../constants";
 const Experiences = () => (

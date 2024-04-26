@@ -1,6 +1,4 @@
 import React from 'react';
-import styles from '../style'; // Assurez-vous d'importer les styles nécessaires
-
 const ExperienceCard = ({ number, date, title, text, linkText, linkUrl }) => {
 
     return (

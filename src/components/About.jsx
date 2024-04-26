@@ -1,4 +1,4 @@
-import styles, { layout } from "../style";
+import styles from "../style";
 import AboutCard from "../widgets/AboutCard";
 import {aboutData} from "../constants";
 const About = () => (

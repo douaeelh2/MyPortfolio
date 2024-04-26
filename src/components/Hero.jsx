@@ -3,8 +3,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 import Button from "../widgets/Button";
-import { Suspense } from "react";
-import Loading from "../widgets/Loading";
 import styles from "../style";
 
 const Hero = () => {
