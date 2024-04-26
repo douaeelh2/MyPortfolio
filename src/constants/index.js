@@ -188,7 +188,7 @@ export const projects = [
         content: "Explore my portfolio seamlessly integrated within the projects section. See firsthand how I leverage my full stack skills to create a cohesive user experience while showcasing my professional journey and technical expertise.",
         img: "portfolio.png",
         technologies: [3, 5, 12],
-        href: "https://github.com/douaeelh2/ContactApp",
+        href: "https://github.com/douaeelh2/MyPortfolio",
     },
     {
         name: "ContactApp Manager",
