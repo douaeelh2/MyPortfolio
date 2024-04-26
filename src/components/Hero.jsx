@@ -17,7 +17,7 @@ const Hero = () => {
                         Engineer.
                     </h1>
 
-                    <p className="text-lg text-white md:text-3xl font-[500] text-center sm:text-left">
+                    <p className="text-xl text-white md:text-3xl font-[500] text-center sm:text-left">
                         <TypeAnimation
                             sequence={[
                                 500,
@@ -39,7 +39,7 @@ const Hero = () => {
 
                 {/* image section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-5 md:w-[70%] lg:w-[75%] h-[100%] hidden md:block">
-                    <div className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform rotate-3`}>
+                    <div className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform rotate-3 feature-img`}>
                         <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] " />
                     </div>
                 </div>
