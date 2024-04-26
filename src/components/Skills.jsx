@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles, { layout } from "../style";
-import Button from "../widgets/Button";
 import '../index.css';
 import { skills, tools } from "../constants";
 import Tooltip from "../widgets/Tooltip";
