@@ -1,16 +1,17 @@
 import { TypeAnimation } from "react-type-animation";
 import Button from "../widgets/Button";
 import styles from "../style";
+import React from "react";
 
 const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
             <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6">
-                <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[50%] rounded-full blue__gradient bottom-30" />
+                <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] behind"/>
 
                 {/* intro section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-7">
-                    <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[100.8px] leading-[75px] mb-4 text-center sm:text-left">
+                <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[100.8px] leading-[75px] mb-4 text-center sm:text-left">
                         Hi, I&apos;m{" "}
                         <span className="text-gradient">Douae EL HILA</span>{" "}
                         <span className="text-gradient">Software</span>{" "}
