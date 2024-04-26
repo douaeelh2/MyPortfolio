@@ -5,7 +5,7 @@ import { skills, tools } from "../constants";
 import Tooltip from "../widgets/Tooltip";
 
 const Cards = ({ icons }) => (
-    <div className={`flex flex-wrap lg:w-[100%] sm:w-[93%] xs:w-[84%] w-[80%] mx-auto mb-3 transition-all duration-250 ease-in-out`}>
+    <div className={`flex flex-wrap lg:w-[100%] sm:w-[93%] xs:w-[84%] w-[80%] mx-auto mb-3 transition-all duration-250 ease-in-out `}>
         {icons.map((icon, index) => (
             index !== icons.length - 1 && (
                 <div key={index} className={`flex p-3 rounded-[16px] ml-5 mb-3 feature-card border border-gray-700 small-device-card`}>
@@ -26,7 +26,7 @@ const Skills = () => {
 
   return (
       <section id="skills" className={`${layout.section} sm:px-0 px-5`}>
-          <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] md:h-[40%] left-[60%] rounded-full blue__gradient bottom-30"/>
+          <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] md:h-[40%] left-[60%] rounded-full blue__gradient bottom-30 behind"/>
           <div className={`${layout.sectionInfo} py-10 md:mb-0`}>
               <h2 className={styles.heading2}>
                   What My Programming Skills Included ?
