@@ -3,7 +3,7 @@ import { socialMedia} from "../constants/index.js";
 
 const Social = () => {
     return (
-            <div className="py-4 lg:py-6 px-4 mx-auto max-w-screen-sm z-50">
+            <div className="py-4 lg:py-6 px-4 mx-auto max-w-screen-sm">
 
                 <h2 className={`text-center ${styles.heading2Center} mt-10`}>Find Me On</h2>
 
