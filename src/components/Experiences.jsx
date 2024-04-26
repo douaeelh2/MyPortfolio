@@ -1,13 +1,12 @@
-import styles from "../style";
+import styles, from "../style";
 import ExperienceCard from "../widgets/ExperienceCard.jsx";
 import {experiences} from "../constants";
-import React from "react";
 const Experiences = () => (
   <section id = "experiences" className={`flex-col gap-10 ${styles.paddingY} relative font-poppins`}>
-      <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] z-50"/>
+    <div className="absolute z-[0] w-[50%] h-[50%] -right-[50%] rounded-full blue__gradient bottom-90" />
 
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm">
-          <h2 className={`${styles.heading2Center}`}>What Have I Learned From My Experiences ?</h2>
+    <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm z-50">
+            <h2 className={`${styles.heading2Center}`}>What Have I Learned From My Experiences ?</h2>
             <p className={`${styles.paragraphCenter}`}>
             Take a deep dive into my professional experiences, from my early career beginnings to my latest ventures. Discover how my journey has equipped me with the skills and insights to tackle new challenges and drive success.
             </p>
