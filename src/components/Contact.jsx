@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Toast from "../widgets/Toast";
 import Social from "./Social";
@@ -36,7 +36,7 @@ const Contact = () => {
     };
     return (
         <section id="contact" className="relative">
-            <div className="absolute z-[0] w-[20%] h-[20%] right-[40%] rounded-full blue__gradient bottom-[100px] behind" />
+            <div className="absolute w-[35%] h-[35%] md:w-[40%] left-[40%] rounded-full blue__gradient bottom-[100px] behind"/>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm">
                 <h2 className={`${styles.heading2Center}`}>Have You Any Project ? Please Drop a Message</h2>
                 <p className={`${styles.paragraphCenter}`}>If you like what you see, let's work together.
