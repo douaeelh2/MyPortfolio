@@ -12,8 +12,8 @@ const About = () => (
                 I’m a <span className="text-gradient">Full Stack Developer</span> who has passion for
                 building clean web applications.
                 I’m always curious about learning new <span className="text-gradient">skills, tools and concepts.</span>
-                In addition to working on various solo full stack projects, <br/> I have worked with <span
-                className="text-gradient">creative teams</span>,
+                < br />
+                In addition to working on various solo full stack projects, <br /> I have worked with <span className="text-gradient">creative teams</span>,
                 which involves communications and project management.
             </p>
             <div className="flex mt-6 justify-center">
