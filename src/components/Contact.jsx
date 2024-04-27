@@ -37,7 +37,6 @@ const Contact = () => {
     return (
         <section id="contact" className="relative">
             <div className="absolute z-[0] w-[25%] h-[25%] -right-[25%] rounded-full blue__gradient top-[-12%]"/>
-            <div className="absolute w-[23%] h-[23%] left-[45%] rounded-full blue__gradient bottom-[100px]"/>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm z-30">
                 <h2 className={`${styles.heading2Center}`}>Have You Any Project ? Please Drop a Message</h2>
                 <p className={`${styles.paragraphCenter}`}>If you like what you see, let's work together.
