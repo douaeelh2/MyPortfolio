@@ -169,11 +169,10 @@
 }
 
 .gradient-shadow {
-  box-shadow: 0 0.5px 0.5px 0.5px #7de7eb !important;
+  box-shadow: 0 0.5px 0 0.5px #7de7eb !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
+  opacity: 0.8 !important;
   transition: all 0.5s ease 0s !important;
-
 }
 
 .feature-img {
