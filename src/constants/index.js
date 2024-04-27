@@ -96,12 +96,12 @@ export const aboutData = [
 export const experiences = [
     {
         date: "Sept 2020 - June 2022",
-        title: "Ecole Nationale des Sciences Appliquées d'Oujda",
+        title: "Ecole Nationale des Sciences Appliquées Oujda",
         text: "Preparatory Cycle - Sciences and Techniques for Engineering. Algorithms and C Programming Language",
     },
     {
         date: "Sept 2022 - June 2023",
-        title: "Ecole Nationale des Sciences Appliquées d'Oujda",
+        title: "Ecole Nationale des Sciences Appliquées Oujda",
         text: "Bachelor's Degree in Computer Engineering. Studied the following technologies:",
         technologies: [
             "Programming languages: C++, Java (Basics and Object-Oriented Programming)",
@@ -121,7 +121,7 @@ export const experiences = [
     },
     {
         date: "Sept 2023 - June 2024",
-        title: "Ecole Nationale des Sciences Appliquées d'Oujda",
+        title: "Ecole Nationale des Sciences Appliquées Oujda",
         text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
         technologies: [
             "Web Development Frameworks: React.js, Laravel",
