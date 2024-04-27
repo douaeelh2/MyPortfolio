@@ -112,14 +112,30 @@ export const experiences = [
         number: "3",
         date: "June 2022 - June 2023",
         title: "Ecole Nationale des Sciences Appliquées d'Oujda",
-        text: "Bachelor's Degree in Computer Engineering. Studied programming languages such as C++ and Java (Basics and Object-Oriented Programming), as well as Data Structures. Proficient in database management with SQL and PL/SQL (MySQL and Oracle). Acquired skills in web development including HTML, CSS, and JavaScript. Also studied tools for design such as UML and Merise, along with XML and PHP.",
+        text: "Bachelor's Degree in Computer Engineering. Studied the following technologies:",
+        technologies: [
+            "Programming languages: C++, Java (Basics and Object-Oriented Programming)",
+            "Data Structures",
+            "Database Management: SQL and PL/SQL (MySQL and Oracle)",
+            "Web Development: HTML, CSS, JavaScript",
+            "Design Tools: UML, Merise",
+            "Other: XML, PHP"
+        ]
     },
     {
         number: "4",
         date: "June 2023 - June 2024",
         title: "Ecole Nationale des Sciences Appliquées d'Oujda",
-        text: "Bachelor's Degree in Computer Engineering. Further studies in web development with frameworks like React.js and Laravel, as well as Java framework Spring. Explored design patterns and project management methodologies including Agile (Scrum, Kanban). Also delved into distributed systems and microservices.",
-    },
+        text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
+        technologies: [
+            "Web Development Frameworks: React.js, Laravel",
+            "Java Framework: Spring",
+            "Design Patterns",
+            "Project Management Methodologies: Agile (Scrum, Kanban)",
+            "Distributed Systems and Microservices"
+        ]
+    }
+
 
 
 ];
