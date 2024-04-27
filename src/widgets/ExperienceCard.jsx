@@ -10,7 +10,7 @@ const ExperienceCard = ({ index, date, title, text, technologies, linkText, link
                 <div className="flex-col items-center justify-between space-x-2 mb-1">
                     <time className="mb-1 text-sm font-normal leading-none text-gradient">{date}</time>
                     <h3 className="text-lg font-semibold text-gray-200 mt-2 mb-1">{title}</h3>
-                    <p className="text-[15px] leading-[26px] font-normal text-gray-500 mb-2">{text} <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="text-gradient">{linkText}</a></p>
+                    <p className="text-sm leading-[26px] font-normal text-gray-500 mb-2">{text} <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="text-gradient">{linkText}</a></p>
                     {technologies && (
                         <div>
                             <ul className="list-disc ml-4">
