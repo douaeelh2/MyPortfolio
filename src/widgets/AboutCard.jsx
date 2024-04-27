@@ -9,7 +9,7 @@ const AboutCard = ({ title, icon, description }) => {
                     </div>
                     <div className="flex-grow">
                         <h2 className="font-poppins font-semibold sm:text-[23px] text-[18px] text-gray-100 w-full mb-3">{title}</h2>
-                        <p className={`font-poppins font-normal text-gray-500 sm:text-[19px] text-[15px] leading-[30.8px]`}> {description}</p>
+                        <p className={`font-poppins font-normal text-gray-500 sm:text-[20px] text-[17px] leading-[30.8px]`}> {description}</p>
                     </div>
 
         </div>
