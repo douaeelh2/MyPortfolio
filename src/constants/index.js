@@ -120,6 +120,20 @@ export const experiences = [
         linkUrl: "https://www.linkedin.com/in/douae-el-hila-252809244/overlay/certifications/1887351806/multiple-media-viewer/?profileId=ACoAADyh3h4B5CwX9BW9Ox7cxrIwsOti71243do&treasuryMediaId=1704841885982",
     },
     {
+        date: "April 2024",
+        title: "AmigosCode - Spring Boot for Beginners",
+        text: "Completed this course offered by AmigosCode. Covered fundamental concepts of Spring Boot, including setting up a Spring Boot application, building RESTful APIs, and integrating with databases.",
+        linkText: "View Certificate",
+        linkUrl: "https://drive.google.com/file/d/12j8sCkLADZk_PHdRlL2M7Bo7irE4jCaY/view?usp=sharing",
+    },
+    {
+        date: "April 2024",
+        title: "AmigosCode - Spring Security",
+        text: "Completed this offered by AmigosCode. Explored advanced security features in Spring, including authentication, authorization, and securing RESTful APIs.",
+        linkText: "View Certificate",
+        linkUrl: "https://drive.google.com/file/d/1x30b-iKyqt7Yghjl65kZSjlljZBTNCH2/view?usp=sharing",
+    },
+    {
         date: "Sept 2023 - June 2024",
         title: "Ecole Nationale des Sciences Appliquées Oujda",
         text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
@@ -131,7 +145,6 @@ export const experiences = [
             "Distributed Systems and Microservices"
         ]
     }
-
 ];
 
 export const skills = [
