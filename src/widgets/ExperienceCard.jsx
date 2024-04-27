@@ -14,8 +14,8 @@ const ExperienceCard = ({ number, date, title, text, linkText, linkUrl }) => {
                 className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] feedback-card border border-gray-700 rounded-lg shadow-xl px-6 py-4">
                 <div className="flex-col items-center justify-between space-x-2 mb-1">
                     <time className="mb-1 text-sm font-normal leading-none text-gradient">{date}</time>
-                    <h3 className="text-md font-semibold text-gray-200 mt-2 mb-1">{title} </h3>
-                    <p className="sm:text-sm text-xs leading-[18px] font-normal text-gray-500 mb-2">{text} <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="text-gradient">{linkText}</a></p>
+                    <h3 className="text-lg font-semibold text-gray-200 mt-2 mb-1">{title} </h3>
+                    <p className="sm:text-md text-sm leading-[24px] font-normal text-gray-500 mb-2">{text} <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="text-gradient">{linkText}</a></p>
                 </div>
             </div>
         </div>
