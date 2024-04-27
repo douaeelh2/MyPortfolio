@@ -36,8 +36,9 @@ const Contact = () => {
     };
     return (
         <section id="contact" className="relative">
-            <div className="absolute w-[30%] h-[30%] left-[60%] rounded-full blue__gradient bottom-[100px] behind"/>
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm z-50">
+            <div className="absolute z-[0] w-[30%] h-[30%] -right-[25%] rounded-full blue__gradient top-[-12%]"/>
+            <div className="absolute w-[25%] h-[25%] left-[45%] rounded-full blue__gradient bottom-[100px]"/>
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm z-30">
                 <h2 className={`${styles.heading2Center}`}>Have You Any Project ? Please Drop a Message</h2>
                 <p className={`${styles.paragraphCenter}`}>If you like what you see, let's work together.
                     I bring rapid solutions to make the life of my clients easier. Have any questions ? Reach out to me
@@ -76,7 +77,7 @@ const Contact = () => {
                     </button>
                 </form>
 
-                {showToast && <Toast />}
+                {showToast && <Toast/>}
 
                 <Social/>
 

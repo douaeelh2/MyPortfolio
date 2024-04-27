@@ -4,7 +4,9 @@ import {aboutData} from "../constants";
 const About = () => (
     <section id="about" className={`flex-col gap-10 ${styles.paddingY} relative font-poppins`}>
 
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm">
+        <div className="absolute z-[0] w-[30%] h-[30%] -right-[20%] rounded-full blue__gradient top-[-5%]"/>
+
+        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm z-50">
             <h2 className={`${styles.heading2Center}`}>About me ? Let Me Introduce Myself</h2>
             <p className={`${styles.paragraphCenter}`}>
                 I’m a <span className="text-gradient">Full Stack Developer</span> who has passion for

@@ -95,22 +95,12 @@ export const aboutData = [
 
 export const experiences = [
     {
-        number: "1",
         date: "Sept 2020 - June 2022",
         title: "Ecole Nationale des Sciences Appliquées d'Oujda",
         text: "Preparatory Cycle - Sciences and Techniques for Engineering. Algorithms and C Programming Language",
     },
     {
-        number: "2",
-        date: "June 15, 2023 - July 15, 2023",
-        title: "Internship at FCPO Web Development Agency",
-        text: "During this one-month internship, gained practical experience in web development at FCPO Web Development Agency. Received an internship certificate.",
-        linkText: "View Certificate",
-        linkUrl: "https://www.linkedin.com/in/douae-el-hila-252809244/overlay/certifications/1887351806/multiple-media-viewer/?profileId=ACoAADyh3h4B5CwX9BW9Ox7cxrIwsOti71243do&treasuryMediaId=1704841885982",
-    },
-    {
-        number: "3",
-        date: "June 2022 - June 2023",
+        date: "Sept 2022 - June 2023",
         title: "Ecole Nationale des Sciences Appliquées d'Oujda",
         text: "Bachelor's Degree in Computer Engineering. Studied the following technologies:",
         technologies: [
@@ -123,8 +113,14 @@ export const experiences = [
         ]
     },
     {
-        number: "4",
-        date: "June 2023 - June 2024",
+        date: "June 15, 2023 - July 15, 2023",
+        title: "Internship at FCPO Web Development Agency",
+        text: "During this one-month internship, gained practical experience in web development at FCPO Web Development Agency. Received an internship certificate.",
+        linkText: "View Certificate",
+        linkUrl: "https://www.linkedin.com/in/douae-el-hila-252809244/overlay/certifications/1887351806/multiple-media-viewer/?profileId=ACoAADyh3h4B5CwX9BW9Ox7cxrIwsOti71243do&treasuryMediaId=1704841885982",
+    },
+    {
+        date: "Sept 2023 - June 2024",
         title: "Ecole Nationale des Sciences Appliquées d'Oujda",
         text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
         technologies: [
@@ -135,8 +131,6 @@ export const experiences = [
             "Distributed Systems and Microservices"
         ]
     }
-
-
 
 ];
 

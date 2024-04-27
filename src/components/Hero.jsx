@@ -5,8 +5,8 @@ import React from "react";
 const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
-            <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6">
-                <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[20%] rounded-full blue__gradient top-50" />
+            <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[55%] rounded-full blue__gradient top-50"/>
+            <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6 z-50">
 
                 {/* intro section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-7">
@@ -45,7 +45,7 @@ const Hero = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-5 md:w-[70%] lg:w-[75%] h-[100%] hidden md:block">
                     <div
                         className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform rotate-3 feature-img`}>
-                        <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] " />
+                        <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] "/>
                     </div>
                 </div>
             </div>
