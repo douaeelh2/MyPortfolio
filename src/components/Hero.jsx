@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX}`}>
+        <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} ${styles.paddingX} z-20`}>
             <div className="absolute z-[0] w-[35%] h-[35%] md:w-[40%] left-[55%] rounded-full blue__gradient top-50"/>
             <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center sm:py-6 z-50">
 
