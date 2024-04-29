@@ -180,8 +180,8 @@ export const tools = [
 export const projects = [
     {
         name: "BlogBurst Blog Website",
-        duration: "3 months",
-        methodology: "Agile Methodology - Scrum, with 3 team members and 3 sprints.",
+        duration: "2 months",
+        methodology: "Agile Methodology - Scrum, with 3 team members and 2 sprints.",
         content: "Platform designed for blogging experiences. Administrators can manage users, categories, and posts, while users contribute content to public pages or specific categories. The platform encourages active participation of content creators.",
         img: "blog.png",
         technologies: [0, 1, 2, 10, 9],
@@ -198,8 +198,8 @@ export const projects = [
     },
     {
         name: "Project Task Management",
-        duration: "2 months",
-        methodology: "Agile Methodology - Scrum, with 3 team members and 2 sprints.",
+        duration: "3 months",
+        methodology: "Agile Methodology - Scrum, with 3 team members and 3 sprints.",
         content: "Comprehensive management site that enables teams to collaborate by tracking projects, tasks, and users. With a user-friendly interface, our site aims to simplify project planning, task assignment, and overall project management.",
         img: "project-task.png",
         technologies: [3, 5, 11, 9],
@@ -207,8 +207,8 @@ export const projects = [
     },
     {
         name: "PFE Management PMastery",
-        duration: "2 months",
-        methodology: "Agile Methodology - Scrum, with 4 team members and 2 sprints.",
+        duration: "4 months",
+        methodology: "Agile Methodology - Scrum, with 4 team members and 4 sprints.",
         content: "This platform simplifies end-of-study project management by providing tools to coordinate supervisors, students, assignments, and defenses. It enables effortless allocation of projects, streamlined scheduling of defenses, and centralized organization.",
         img: "pmastery.png",
         technologies: [4, 5, 8, 7 , 9],
