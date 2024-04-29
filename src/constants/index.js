@@ -2,6 +2,7 @@ import { html , css , js , tailwind , bootstrap , react, java ,spring, springboo
   vscode, eclipse , github , git , slack, trello, intellij, docker , emailjs
 } from "../assets";
 import React from "react";
+
 export const navLinks = [
 
   {
