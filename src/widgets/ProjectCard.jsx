@@ -4,7 +4,7 @@ import styles from "../style";
 const ProjectCard = ({ name, duration, methodology, content, img, technologies, href }) => (
     <div className="mb-12 lg:mb-0 feedback-card p-7 rounded-lg border border-gray-700 shadow-xl">
         <div className="relative sm:mb-6 mb-4 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-black/20 bg-[50%]">
-            <img src={`/images/${img}`} className="w-full lg:h-[250px]" alt={"project img"} />
+            <img src={`/images/${img}`} className="w-full lg:h-[300px]" alt={"project img"} />
         </div>
         <h5 className="font-poppins font-semibold sm:text-[28px] text-[23px] text-white w-full mb-3">{name}</h5>
 

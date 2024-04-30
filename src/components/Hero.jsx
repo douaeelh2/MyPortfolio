@@ -35,8 +35,8 @@ const Hero = () => {
                     <div className="flex items-center flex-col sm:flex-row mt-8">
                         <button type="button"
                                 className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}>
-                            <a href="https://drive.google.com/file/d/1sVElSEZEH0Ixl_NX4pAH-G9WRUAkNNiZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download
-                                CV</a>
+                            <a href="https://drive.google.com/file/d/15RiKmR_B6o790jp6r1176v8kpHgd4_dQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                Download CV</a>
                         </button>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ const Hero = () => {
                 {/* image section */}
                 <div className="col-span-12 md:col-span-6 lg:col-span-5 md:w-[70%] lg:w-[75%] h-[100%] hidden md:block">
                     <div
-                        className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform rotate-3 feature-img`}>
-                        <img src="/images/DouaeELHILA.jpeg" alt="Hero" className="w-[100%] h-[100%] "/>
+                        className={`flex-1 flex ${styles.flexCenter} relative overflow-hidden rounded-lg transform feature-img`}>
+                        <img src="/images/doudou.jpeg" alt="Hero" className="w-[100%] h-[100%] "/>
                     </div>
                 </div>
             </div>

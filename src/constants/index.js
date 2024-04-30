@@ -1,5 +1,6 @@
-import { html , css , js , tailwind , bootstrap , react, java ,spring, springboot , mysql , php , laravel,
-  vscode, eclipse , github , git , slack, trello, intellij, docker , emailjs
+import {
+    html, css, js, tailwind, bootstrap, react, java, spring, springboot, mysql, php, laravel,
+    vscode, eclipse, github, git, slack, trello, intellij, docker, emailjs, postgresql, elasticsearch , nextjs
 } from "../assets";
 import React from "react";
 
@@ -96,9 +97,16 @@ export const aboutData = [
 
 export const experiences = [
     {
-        date: "Sept 2020 - June 2022",
+        date: "Sept 2023 - June 2024",
         title: "Ecole Nationale des Sciences Appliquées Oujda",
-        text: "Preparatory Cycle - Sciences and Techniques for Engineering. Algorithms and C Programming Language",
+        text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
+        technologies: [
+            "Web Development Frameworks: React.js, Laravel",
+            "Java Framework: Spring",
+            "Design Patterns",
+            "Project Management Methodologies: Agile (Scrum, Kanban)",
+            "Distributed Systems and Microservices"
+        ]
     },
     {
         date: "Sept 2022 - June 2023",
@@ -114,34 +122,41 @@ export const experiences = [
         ]
     },
     {
-        date: "June 15, 2023 - July 15, 2023",
-        title: "Internship at FCPO Web Development Agency",
-        text: "During this one-month internship, gained practical experience in web development at FCPO Web Development Agency. Received an internship certificate.",
+        date: "Sept 2020 - June 2022",
+        title: "Ecole Nationale des Sciences Appliquées Oujda",
+        text: "Preparatory Cycle - Sciences and Techniques for Engineering. Algorithms and C Programming Language",
+    },
+    {
+        date: "1st of July , 2024 - August 30 , 2024",
+        title: "Internship at Novelis Oujda",
+        text: "This internship allowed me to gain valuable experience in integrating advanced AI solutions and developing applications based on language models.",
         linkText: "View Certificate",
         linkUrl: "https://www.linkedin.com/in/douae-el-hila-252809244/overlay/certifications/1887351806/multiple-media-viewer/?profileId=ACoAADyh3h4B5CwX9BW9Ox7cxrIwsOti71243do&treasuryMediaId=1704841885982",
     },
     {
-        date: "Sept 2023 - June 2024",
-        title: "Ecole Nationale des Sciences Appliquées Oujda",
-        text: "Continued Bachelor's Degree in Computer Engineering with focus on the following technologies:",
-        technologies: [
-            "Web Development Frameworks: React.js, Laravel",
-            "Java Framework: Spring",
-            "Design Patterns",
-            "Project Management Methodologies: Agile (Scrum, Kanban)",
-            "Distributed Systems and Microservices"
-        ]
-    },
-    {
-        date: "April 2024",
-        title: "AmigosCode - Spring Boot for Beginners",
-        text: "Completed this course offered by AmigosCode. Covered fundamental concepts of Spring Boot, including setting up a Spring Boot application, building RESTful APIs, and integrating with databases.",
+        date: "June 15, 2023 - August 15, 2023",
+        title: "Internship at FCPO Web Development Agency",
+        text: "During this internship, gained practical experience in web development at FCPO Web Development Agency. Received an internship certificate.",
         linkText: "View Certificate",
-        linkUrl: "https://drive.google.com/file/d/12j8sCkLADZk_PHdRlL2M7Bo7irE4jCaY/view?usp=sharing",
+        linkUrl: "https://www.linkedin.com/in/douae-el-hila-252809244/overlay/certifications/1887351806/multiple-media-viewer/?profileId=ACoAADyh3h4B5CwX9BW9Ox7cxrIwsOti71243do&treasuryMediaId=1704841885982",
+    },
+    {
+        date: "May 2024",
+        title: "Certification Coursera - Spring Data Repositories",
+        text: "Completed this course on Spring Data Repositories, learning key concepts like CRUD operations, pagination, sorting, and custom queries to manage data efficiently in Java applications.",
+        linkText: "View Certificate",
+        linkUrl: "https://drive.google.com/file/d/1jEJoHaauFmRMkmQbnR3GSPiNG32_U-tU/view?usp=sharing",
     },
     {
         date: "April 2024",
-        title: "AmigosCode - Spring Security",
+        title: "Certification Coursera - Spring MVC, Spring Boot and Rest Controllers",
+        text: "Completed this course on Coursera covering Spring MVC, Spring Boot, and Rest Controllers. Learned about building web applications with Spring MVC, creating RESTful APIs with Spring Boot, and implementing controllers for handling web requests.",
+        linkText: "View Certificate",
+        linkUrl: "https://drive.google.com/file/d/1KKssCSSBERQLhXdesJuwSjEAFYT9FB5T/view?usp=sharing",
+    },
+    {
+        date: "April 2024",
+        title: "Certification AmigosCode - Spring Security",
         text: "Completed this offered by AmigosCode. Explored advanced security features in Spring, including authentication, authorization, and securing RESTful APIs.",
         linkText: "View Certificate",
         linkUrl: "https://drive.google.com/file/d/1x30b-iKyqt7Yghjl65kZSjlljZBTNCH2/view?usp=sharing",
@@ -155,10 +170,13 @@ export const skills = [
     { icon: tailwind, tooltip: 'Tailwind CSS' },
     { icon: bootstrap, tooltip: 'Bootstrap' },
     { icon: react, tooltip: 'React Js' },
+    { icon: nextjs, tooltip: 'Next Js' },
     { icon: java, tooltip: 'Java' },
     { icon: spring, tooltip: 'Spring' },
     { icon: springboot, tooltip: 'Spring Boot' },
     { icon: mysql, tooltip: 'MySQL' },
+    { icon: postgresql, tooltip: 'PostgreSQL' },
+    { icon: elasticsearch, tooltip: 'ElasticSearch' },
     { icon: php, tooltip: 'PHP' },
     { icon: laravel, tooltip: 'Laravel' },
     { icon: emailjs, tooltip: 'Email Js' },
@@ -179,22 +197,22 @@ export const tools = [
 
 export const projects = [
     {
-        name: "BlogBurst Blog Website",
-        duration: "2 months",
-        methodology: "Agile Methodology - Scrum, with 3 team members and 2 sprints.",
-        content: "Platform designed for blogging experiences. Administrators can manage users, categories, and posts, while users contribute content to public pages or specific categories. The platform encourages active participation of content creators.",
-        img: "blog.png",
-        technologies: [0, 1, 2, 10, 9],
-        href: "https://github.com/douaeelh2/blog",
+        name: "PFE Management PMastery",
+        duration: "4 months",
+        methodology: "Agile Methodology - Scrum, with 4 team members and 4 sprints.",
+        content: "This platform simplifies end-of-study project management by providing tools to coordinate supervisors, students, assignments, and defenses. It enables effortless allocation of projects, streamlined scheduling of defenses, and centralized organization.",
+        img: "pmastery.png",
+        technologies: [4, 5, 8, 7 , 10],
+        href: "https://github.com/douaeelh2/ContactApp",
     },
     {
-        name: "Home Renovation Services",
-        duration: "1 month",
-        methodology: "Agile Methodology - Scrum, with 2 team members and 1 sprint.",
-        content: "Developed during my initiation internship. The application showcases the client's projects, their posts, their partners, and the services they offer such as Electricity, Plumbing, and Air Conditioning. Anyone interested can fill out a form on the desired service.",
-        img: "hrs.png",
-        technologies: [0, 1, 2, 4, 10, 9],
-        href: "https://hrs.fcpo.agency",
+        name: "IntelliAPI",
+        duration: "2 months",
+        methodology: "Agile Methodology - Scrum, with 2 team members and 2 sprints.",
+        content:"Developed a web application to read and parse OpenAPI files, select APIs, and use an LLM to translate natural language queries into API calls. The application generates graphs, lists, and tables to visualize and analyze the data.",
+        img: "dashboard1.png",
+        technologies: [3, 6, 9, 8 , 11],
+        href: "https://drive.google.com/file/d/1hrbOVMdeM8HwT38q5ureKqfRvhKWZyN0/view?usp=sharing",
     },
     {
         name: "Project Task Management",
@@ -202,24 +220,33 @@ export const projects = [
         methodology: "Agile Methodology - Scrum, with 3 team members and 3 sprints.",
         content: "Comprehensive management site that enables teams to collaborate by tracking projects, tasks, and users. With a user-friendly interface, our site aims to simplify project planning, task assignment, and overall project management.",
         img: "project-task.png",
-        technologies: [3, 5, 11, 9],
+        technologies: [3, 5, 14, 10],
         href: "https://github.com/douaeelh2/Project-Task-Management",
     },
     {
-        name: "PFE Management PMastery",
-        duration: "4 months",
-        methodology: "Agile Methodology - Scrum, with 4 team members and 4 sprints.",
-        content: "This platform simplifies end-of-study project management by providing tools to coordinate supervisors, students, assignments, and defenses. It enables effortless allocation of projects, streamlined scheduling of defenses, and centralized organization.",
-        img: "pmastery.png",
-        technologies: [4, 5, 8, 7 , 9],
-        href: "https://github.com/douaeelh2/ContactApp",
+        name: "BlogBurst Blog Website",
+        duration: "2 months",
+        methodology: "Agile Methodology - Scrum, with 3 team members and 2 sprints.",
+        content: "Platform designed for blogging experiences. Administrators can manage users, categories, and posts, while users contribute content to public pages or specific categories. The platform encourages active participation of content creators.",
+        img: "blog.png",
+        technologies: [0, 1, 2, 13, 10],
+        href: "https://github.com/douaeelh2/blog",
+    },
+    {
+        name: "Home Renovation Services",
+        duration: "2 months",
+        methodology: "Agile Methodology - Scrum, with 2 team members and 2 sprints.",
+        content: "Developed during my initiation internship. The application showcases the client's projects, their posts, their partners, and the services they offer such as Electricity, Plumbing, and Air Conditioning. Anyone interested can fill out a form on the desired service.",
+        img: "hrs.png",
+        technologies: [0, 1, 2, 4, 13, 10],
+        href: "https://hrs.fcpo.agency",
     },
     {
         name: "My Portfolio",
         duration: "1 month",
         content: "Explore my portfolio seamlessly integrated within the projects section. See firsthand how I leverage my full stack skills to create a cohesive user experience while showcasing my professional journey and technical expertise.",
         img: "portfolio.png",
-        technologies: [3, 5, 12],
+        technologies: [3, 5, 15],
         href: "https://github.com/douaeelh2/MyPortfolio",
     },
     {
@@ -228,9 +255,10 @@ export const projects = [
         methodology: "Agile Methodology - Scrum, with 3 team members and 1 sprint.",
         content: "This Mobile Application aims to provide contact management such as adding, editing, deleting, searching contacts, and displaying details for each contact.",
         img: "contactapp.png",
-        technologies: [6],
+        technologies: [7],
         href: "https://github.com/douaeelh2/ContactApp",
-    },
+    }
+
 ];
 
 

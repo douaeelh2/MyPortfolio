@@ -21,11 +21,14 @@ import intellij from  "./intellij.png";
 import docker from "./docker.png"
 import springboot from "./springboot.png"
 import emailjs from "./emailjs.png";
+import postgresql from "./postgresql.png";
+import elasticsearch from "./elasticsearch.png";
+import nextjs from "./nextjs.png";
 
 export {
   menu,
   close,
 
   html, css , js , tailwind , bootstrap , react, java ,spring, springboot , mysql , php , laravel,
-  vscode, eclipse , github , git , slack, trello,intellij, docker, emailjs
+  vscode, eclipse , github , git , slack, trello,intellij, docker, emailjs , postgresql, elasticsearch , nextjs
 };
