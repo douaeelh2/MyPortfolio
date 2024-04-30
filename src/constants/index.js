@@ -134,10 +134,10 @@ export const experiences = [
     },
     {
         date: "April 2024",
-        title: "AmigosCode - Spring Boot for Beginners",
-        text: "Completed this course offered by AmigosCode. Covered fundamental concepts of Spring Boot, including setting up a Spring Boot application, building RESTful APIs, and integrating with databases.",
+        title: "Coursera - Spring MVC, Spring Boot and Rest Controllers",
+        text: "Completed this course on Coursera covering Spring MVC, Spring Boot, and Rest Controllers. Learned about building web applications with Spring MVC, creating RESTful APIs with Spring Boot, and implementing controllers for handling web requests.",
         linkText: "View Certificate",
-        linkUrl: "https://drive.google.com/file/d/12j8sCkLADZk_PHdRlL2M7Bo7irE4jCaY/view?usp=sharing",
+        linkUrl: "https://drive.google.com/file/d/1KKssCSSBERQLhXdesJuwSjEAFYT9FB5T/view?usp=sharing",
     },
     {
         date: "April 2024",
