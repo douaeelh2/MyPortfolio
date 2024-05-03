@@ -5,7 +5,7 @@
 Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
 
 
-## How to Run
+## Running React App Using Docker
 
 To run this project using Docker, follow these steps:
 
@@ -40,7 +40,7 @@ Docker installed on your system. You can download and install Docker from [here]
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
