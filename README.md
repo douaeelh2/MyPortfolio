@@ -1,3 +1,50 @@
+
+
+# My React JS Portfolio
+
+Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
+
+## How to Run
+
+To run this project using Docker, follow these steps:
+
+### Prerequisites
+
+- Docker installed on your system. You can download and install Docker from [here](https://www.docker.com/get-started).
+
+### Instructions
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your-username/react-portfolio.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd react-portfolio
+    ```
+
+3. Build the Docker image:
+
+    ```bash
+    docker build -t react-portfolio .
+    ```
+
+4. Run the Docker container:
+
+    ```bash
+    docker run -d -p 3000:3000 react-portfolio
+    ```
+
+5. Open your web browser and visit `http://localhost:3000` to view the application.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
