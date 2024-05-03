@@ -2,7 +2,7 @@
 
 Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
 
-![portfolio](https://github.com/douaeelh2/MyPortfolio/assets/127549220/be45ebdb-f6f3-49de-a65c-027231617313)
+![portfolio](https://github.com/douaeelh2/MyPortfolio/assets/127549220/39fa7cb7-6838-45ce-8249-0130e54d3d75)
 
 
 ## How to Run
