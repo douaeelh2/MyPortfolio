@@ -1,5 +1,4 @@
 
-
 # My React JS Portfolio
 
 Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
@@ -17,28 +16,22 @@ To run this project using Docker, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/react-portfolio.git
+    git clone https://github.com/douaeelh2/MyPortfolio.git
     ```
 
-2. Navigate to the project directory:
+2. Build the Docker image:
 
     ```bash
-    cd react-portfolio
+    docker build -t portfolio_img .
     ```
 
-3. Build the Docker image:
+3. Run the Docker container:
 
     ```bash
-    docker build -t react-portfolio .
+    docker run -d -p 3000:3000 portfolio_c
     ```
 
-4. Run the Docker container:
-
-    ```bash
-    docker run -d -p 3000:3000 react-portfolio
-    ```
-
-5. Open your web browser and visit `http://localhost:3000` to view the application.
+4. Open your web browser and visit `http://localhost:3000` to view the application.
 
 ## License
 
