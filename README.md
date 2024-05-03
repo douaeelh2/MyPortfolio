@@ -11,7 +11,7 @@ To run this project using Docker, follow these steps:
 
 ### Prerequisites
 
-- Docker installed on your system. You can download and install Docker from [here](https://www.docker.com/get-started).
+Docker installed on your system. You can download and install Docker from [here](https://www.docker.com/get-started).
 
 ### Instructions
 
