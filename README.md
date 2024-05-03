@@ -1,4 +1,3 @@
-
 # My React JS Portfolio
 
 Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
@@ -28,7 +27,7 @@ To run this project using Docker, follow these steps:
 3. Run the Docker container:
 
     ```bash
-    docker run -d -p 3000:3000 portfolio_c
+    docker run -d -p 3000:3000 portfolio_img
     ```
 
 4. Open your web browser and visit `http://localhost:3000` to view the application.
