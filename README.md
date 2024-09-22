@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+# My React JS Portfolio
+
+![portfolio](https://github.com/douaeelh2/MyPortfolio/assets/127549220/39fa7cb7-6838-45ce-8249-0130e54d3d75)
+
+Welcome to my React JS portfolio! This repository serves as a showcase of my skills, projects, and experiences in web development.
+
+
+## Running React App Using Docker
+
+To run this project using Docker, follow these steps:
+
+### Prerequisites
+
+Docker installed on your system. You can download and install Docker from [here](https://www.docker.com/get-started).
+
+### Instructions
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/douaeelh2/MyPortfolio.git
+    ```
+
+2. Build the Docker image:
+
+    ```bash
+    docker build -t portfolio_img .
+    ```
+
+3. Run the Docker container:
+
+    ```bash
+    docker run -d -p 3000:3000 portfolio_img
+    ```
+
+4. Open your web browser and visit `http://localhost:3000` to view the application.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
