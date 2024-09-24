@@ -210,7 +210,7 @@ export const projects = [
         duration: "2 months",
         methodology: "Agile Methodology - Scrum, with 2 team members and 2 sprints.",
         content:"Developed a web application to read and parse OpenAPI files, select APIs, and use an LLM to translate natural language queries into API calls. The application generates graphs, lists, and tables to visualize and analyze the data.",
-        img: "dashboard1.png",
+        img: "call.png",
         technologies: [3, 6, 9, 8 , 11],
         href: "https://drive.google.com/file/d/1hrbOVMdeM8HwT38q5ureKqfRvhKWZyN0/view?usp=sharing",
     },
