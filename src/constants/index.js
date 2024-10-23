@@ -203,7 +203,7 @@ export const projects = [
         content: "This platform simplifies end-of-study project management by providing tools to coordinate supervisors, students, assignments, and defenses. It enables effortless allocation of projects, streamlined scheduling of defenses, and centralized organization.",
         img: "pmastery.png",
         technologies: [4, 5, 8, 7 , 10],
-        href: "https://github.com/douaeelh2/ContactApp",
+        href: "https://drive.google.com/file/d/11g2NuuA2s_edd8RukWVkAcqA8rzgtMGj/view?usp=sharing",
     },
     {
         name: "IntelliAPI",
